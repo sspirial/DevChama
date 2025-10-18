@@ -33,3 +33,5 @@ Notes
 - Uses SQLite by default for quick local dev. Change `DATABASES` in `devchama/settings.py` to use Postgres for production.
 - JWT auth endpoints are at `/api/auth/token/` and `/api/auth/token/refresh/`.
 - API root is `/api/` and includes chamas, contributions, tasks, rewards, and membership nested routes.
+- Interactive Swagger UI available at `/api/docs/` once the server is running. Redoc documentation at `/api/redoc/`. Raw schema: `/api/schema/`.
+- A starter Postman/Insomnia collection is in `api_collection.json` at the repository root. Import it to quickly exercise the auth and profile endpoints.
